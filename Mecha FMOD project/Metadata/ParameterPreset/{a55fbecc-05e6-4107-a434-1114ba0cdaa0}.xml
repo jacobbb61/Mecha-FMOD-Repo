@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a55fbecc-05e6-4107-a434-1114ba0cdaa0}">
+		<property name="name">
+			<value>Combat Volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cce71ff1-5625-4e18-ac1a-21743af54efc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{357e24eb-b3f0-4fb8-a8b7-fe6499dc29b2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{357e24eb-b3f0-4fb8-a8b7-fe6499dc29b2}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
