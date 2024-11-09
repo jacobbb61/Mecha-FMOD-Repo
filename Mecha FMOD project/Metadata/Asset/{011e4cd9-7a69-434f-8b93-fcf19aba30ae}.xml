@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{4a6855f3-c2a4-462b-b7ec-da45bdc0a1ac}">
+	<object class="EncodableAsset" id="{011e4cd9-7a69-434f-8b93-fcf19aba30ae}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="assetPath">
-			<value>Placeholder Sounds/</value>
+			<value>SFX/Player Weapons/24 Gauge Shotgun/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>

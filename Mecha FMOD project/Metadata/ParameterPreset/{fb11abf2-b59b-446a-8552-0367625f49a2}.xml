@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fb11abf2-b59b-446a-8552-0367625f49a2}">
+		<property name="name">
+			<value>Energy Rifle Charge Amount</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cce71ff1-5625-4e18-ac1a-21743af54efc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{54f6efb1-1d8e-41f5-99dc-aa4e345b81ad}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{54f6efb1-1d8e-41f5-99dc-aa4e345b81ad}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Energy Rifle Charge 01</value>
+			<value>Energy Rifle Charge 01</value>
+			<value>Energy Rifle Charge 01</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{98e71079-866a-4731-8b0d-b019c172cbd6}">
+	<object class="AudioFile" id="{f58a3054-1516-40da-9066-30bcd323e037}">
 		<property name="color">
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>Placeholder Sounds/Placeholder Gun Shot.wav</value>
+			<value>SFX/Player Weapons/24 Gauge Shotgun/24 Gauge Shotgun Reload.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.67022675736961457</value>
+			<value>1.3942403628117914</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
