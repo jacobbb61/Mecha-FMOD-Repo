@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.03.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{80b22e6f-6abd-472a-82a2-30a9ca5bf3df}">
 		<property name="color">
 			<value>Blue</value>
