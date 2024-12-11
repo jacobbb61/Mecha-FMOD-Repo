@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{cbb5f970-f6af-4ff5-ba2f-309880923ece}">
+		<property name="name">
+			<value>Spawning</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5c63ba0c-0c3a-479b-931e-c25ef2c801c3}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="name">
-			<value>24 Gauge Shotgun Reload</value>
+			<value>24 Gauge Shotgun Reload Finish</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5eeea418-8f96-4c2d-b310-e51cd3292cfc}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{539fd2c4-5123-41e3-b579-5be0bc135a75}</destination>
 		</relationship>
@@ -87,7 +90,7 @@
 	</object>
 	<object class="MultiSound" id="{218ce6b3-459a-4921-a336-088dcd79b436}">
 		<relationship name="sounds">
-			<destination>{61bfbd8d-9175-4c40-9e83-b15717f3af9f}</destination>
+			<destination>{55302b21-9872-4561-8441-1e79aef63408}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{115011d6-73d8-43b7-a3d3-52858ebc5740}">
@@ -103,9 +106,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5a3f7763-a5b7-4647-8295-c63a5cb97ad4}" />
-	<object class="SingleSound" id="{61bfbd8d-9175-4c40-9e83-b15717f3af9f}">
+	<object class="SingleSound" id="{55302b21-9872-4561-8441-1e79aef63408}">
 		<relationship name="audioFile">
-			<destination>{f58a3054-1516-40da-9066-30bcd323e037}</destination>
+			<destination>{50a8cd78-4104-4849-aaa3-ff6ae30bb1c0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{474b6fb5-9b92-46d7-ac09-017ef06ce22d}" />
