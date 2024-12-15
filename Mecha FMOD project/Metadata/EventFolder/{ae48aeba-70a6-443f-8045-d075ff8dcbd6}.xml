@@ -5,7 +5,7 @@
 			<value>Yellow</value>
 		</property>
 		<property name="name">
-			<value>Voice Over Events</value>
+			<value>Voice Overs</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2ef2cfc4-07d8-498a-ac4a-d6f42fe1dcb3}</destination>

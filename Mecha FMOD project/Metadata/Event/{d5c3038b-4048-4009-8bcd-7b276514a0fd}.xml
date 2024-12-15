@@ -8,7 +8,7 @@
 			<value>Not So Mini Gun Reload Mag Swap In</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1cb7d15-5567-4f0d-9ba4-243bbb5f9753}</destination>
@@ -35,7 +35,7 @@
 			<destination>{ae33324f-283b-4d9d-9b17-5a75c754a6eb}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{248e1ea8-d0ee-4c6a-a649-114f8b1f7913}</destination>
+			<destination>{689c72d2-2656-4b3c-8a61-546b5eed7c7a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{6f3ad5fc-c034-428f-8925-aff76804cca9}">
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{ccfec8f0-0205-4b5c-b5c2-5316ea2af4b0}">
 		<relationship name="effects">
 			<destination>{3acb5b70-6af9-4b27-bd5b-2dd2baee9b39}</destination>
-			<destination>{d8115804-742a-49cc-8b7c-e0e225ee7aa5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{247969c0-d94d-4d23-8166-9270f2798642}" />
@@ -113,5 +112,4 @@
 	</object>
 	<object class="MixerBusFader" id="{f0970894-9c42-4ff2-b7bb-4ece142afbfc}" />
 	<object class="MixerBusFader" id="{3acb5b70-6af9-4b27-bd5b-2dd2baee9b39}" />
-	<object class="SpatialiserEffect" id="{d8115804-742a-49cc-8b7c-e0e225ee7aa5}" />
 </objects>

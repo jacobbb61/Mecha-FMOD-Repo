@@ -8,7 +8,7 @@
 			<value>Energy Rifle Reload OpenClose</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4fd14056-efad-4b3d-b280-5898b9092b10}</destination>
@@ -35,7 +35,7 @@
 			<destination>{49c47df6-47c6-4e30-a492-551768a3d383}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{248e1ea8-d0ee-4c6a-a649-114f8b1f7913}</destination>
+			<destination>{689c72d2-2656-4b3c-8a61-546b5eed7c7a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{17a9b4ac-7a03-4b3b-9627-b7515b4c35b5}">
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{e032c802-2a9a-466a-81fa-14fafdbadfb4}">
 		<relationship name="effects">
 			<destination>{bba17f1c-e9b9-4a3d-92ef-8c91b6bffc71}</destination>
-			<destination>{aa47b16f-9eef-4a24-a3ba-40a337d83f10}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{26967df0-f01b-477f-b988-a0da882f14db}" />
@@ -113,5 +112,4 @@
 	</object>
 	<object class="MixerBusFader" id="{f5b7234a-bf26-46e7-bec4-b76d82232208}" />
 	<object class="MixerBusFader" id="{bba17f1c-e9b9-4a3d-92ef-8c91b6bffc71}" />
-	<object class="SpatialiserEffect" id="{aa47b16f-9eef-4a24-a3ba-40a337d83f10}" />
 </objects>

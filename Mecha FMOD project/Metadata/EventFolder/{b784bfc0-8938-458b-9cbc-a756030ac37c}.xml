@@ -5,7 +5,7 @@
 			<value>Explosions</value>
 		</property>
 		<relationship name="folder">
-			<destination>{409abe40-77a6-4fb6-86d5-ff23271f525a}</destination>
+			<destination>{4ff47921-a63a-4654-82dd-512985ec6f4e}</destination>
 		</relationship>
 	</object>
 </objects>
