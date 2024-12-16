@@ -60,7 +60,7 @@
 			<destination>{7b1200c2-dfa8-47b2-9ae7-d6c51080f4e5}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{932db715-a48f-4cc6-b3ab-8efd26abc62e}</destination>
+			<destination>{e192ec88-16cf-46bc-97df-c54bc5ccd012}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7e19a97b-ed3e-429e-9d5d-fb4feb33962f}" />
@@ -238,7 +238,6 @@
 		<property name="length">
 			<value>90</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{fe2cf393-81db-43e1-ade3-9a4bd3d99bc7}</destination>
 		</relationship>
@@ -314,7 +313,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3191e4f7-b409-487b-85b6-101cb11f502c}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-12</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -448,6 +447,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{045ebd40-3fd2-4d60-a08e-43385db2782f}">
 		<relationship name="effects">
+			<destination>{04abd805-b711-4b49-92a2-24f84b0ed81f}</destination>
+			<destination>{af09c700-b947-4765-98a3-866896a543c6}</destination>
 			<destination>{7a3a4bf5-03b6-4570-b853-396ecbcc625f}</destination>
 		</relationship>
 	</object>
@@ -571,6 +572,31 @@
 		<relationship name="audioFile">
 			<destination>{f97c21ad-d000-4b9a-9a11-0d2713228f1a}</destination>
 		</relationship>
+	</object>
+	<object class="DelayEffect" id="{04abd805-b711-4b49-92a2-24f84b0ed81f}">
+		<property name="delay">
+			<value>620</value>
+		</property>
+		<property name="feedback">
+			<value>41.5</value>
+		</property>
+		<property name="level">
+			<value>-24.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{af09c700-b947-4765-98a3-866896a543c6}">
+		<property name="threshold">
+			<value>-46.5</value>
+		</property>
+		<property name="ratio">
+			<value>2.9000001</value>
+		</property>
+		<property name="attackTime">
+			<value>3.60000014</value>
+		</property>
+		<property name="releaseTime">
+			<value>520</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{7a3a4bf5-03b6-4570-b853-396ecbcc625f}" />
 </objects>
