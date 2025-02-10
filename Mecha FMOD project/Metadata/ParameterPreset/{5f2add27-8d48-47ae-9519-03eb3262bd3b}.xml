@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5f2add27-8d48-47ae-9519-03eb3262bd3b}">
+		<property name="name">
+			<value>Willy's Emotional State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cce71ff1-5625-4e18-ac1a-21743af54efc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e511938e-fe1f-4289-be40-82d7645111e9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e511938e-fe1f-4289-be40-82d7645111e9}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>8</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hello</value>
+			<value>Happy</value>
+			<value>Sad</value>
+			<value>Angry</value>
+			<value>Surprise</value>
+			<value>Laugh</value>
+			<value>Snore</value>
+			<value>Bye</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
