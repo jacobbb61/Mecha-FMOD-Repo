@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{b0c269c9-9824-4ffb-bdaa-d3adb3005821}">
+	<object class="EncodableAsset" id="{1035eaa2-e087-4f41-a576-8231e6b68a13}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="assetPath">
-			<value>New Folder/</value>
+			<value>SFX/Bulletdrop/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
