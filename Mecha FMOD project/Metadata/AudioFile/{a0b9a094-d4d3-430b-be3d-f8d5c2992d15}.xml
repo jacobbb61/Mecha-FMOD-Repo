@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a0b9a094-d4d3-430b-be3d-f8d5c2992d15}">
+		<property name="assetPath">
+			<value>Demos/sfx_enviroment_doorClose_demo_v1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1040000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
+		</relationship>
+	</object>
+</objects>

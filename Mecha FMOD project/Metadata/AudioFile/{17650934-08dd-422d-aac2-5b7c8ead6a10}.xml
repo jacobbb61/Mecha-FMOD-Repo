@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{17650934-08dd-422d-aac2-5b7c8ead6a10}">
+		<property name="assetPath">
+			<value>Voice Over/tento khrovan NPC dialogue/vo_tentokhrovan_happy_v1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.5466666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
+		</relationship>
+	</object>
+</objects>

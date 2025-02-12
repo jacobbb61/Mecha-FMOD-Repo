@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{9f39e1c6-a46a-4c42-9e21-cc4b4ac49d06}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{6a3773b5-958b-46f8-a40f-0848ee7ff144}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{bc8e252b-68a4-4964-adcd-e477b5b8205e}">
 		<relationship name="masterBus">
@@ -92,13 +95,15 @@
 	<object class="MixerBusPanner" id="{5b8fd2dd-f03c-4600-bd78-5c8535d56e71}" />
 	<object class="MixerBusEffectChain" id="{53955396-742b-4518-a2c0-16cd8283dafe}">
 		<relationship name="effects">
+			<destination>{ccccc1d6-2409-4ee2-bda1-73358a6b6d4b}</destination>
 			<destination>{beb8dc3c-fe3c-4cf6-ad76-421bff34d68a}</destination>
+			<destination>{22a29daa-48cc-4b82-b62e-cb8a289ecae2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5a8a8d28-6835-4d90-ab2c-6c837ca59bf4}" />
 	<object class="MultiSound" id="{40835183-bd61-4b58-8a73-c0b604f0c373}">
 		<property name="pitch">
-			<value>-10.5</value>
+			<value>-7.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{4b505c74-949b-4965-b1ff-35bd98c1f984}</destination>
@@ -112,7 +117,53 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bea48c20-5488-4198-8831-2a1292bdf8ea}" />
+	<object class="MultibandEqEffect" id="{ccccc1d6-2409-4ee2-bda1-73358a6b6d4b}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>1</value>
+		</property>
+		<property name="frequencyA">
+			<value>550.48114</value>
+		</property>
+		<property name="frequencyB">
+			<value>102.775131</value>
+		</property>
+		<property name="frequencyE">
+			<value>4651.11719</value>
+		</property>
+		<property name="qualityA">
+			<value>1.4203794</value>
+		</property>
+		<property name="qualityB">
+			<value>0.340000004</value>
+		</property>
+		<property name="qualityE">
+			<value>0.840758622</value>
+		</property>
+		<property name="gainA">
+			<value>-16.5517235</value>
+		</property>
+		<property name="gainB">
+			<value>6.72413731</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{beb8dc3c-fe3c-4cf6-ad76-421bff34d68a}" />
+	<object class="PitchShifterEffect" id="{22a29daa-48cc-4b82-b62e-cb8a289ecae2}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="pitch">
+			<value>0.669999957</value>
+		</property>
+		<property name="overlap">
+			<value>16.8000011</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{4b505c74-949b-4965-b1ff-35bd98c1f984}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
