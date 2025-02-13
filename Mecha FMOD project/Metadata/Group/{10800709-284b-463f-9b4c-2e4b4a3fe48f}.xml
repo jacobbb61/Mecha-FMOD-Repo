@@ -17,6 +17,7 @@
 	<object class="MixerBusEffectChain" id="{ad141883-795e-4bc2-ac66-697e461afed5}">
 		<relationship name="effects">
 			<destination>{b0bd8db7-2867-4c5d-a03e-cb0439ba1b52}</destination>
+			<destination>{b8bf8e16-5f1a-4673-ab05-abaa586c85eb}</destination>
 			<destination>{2be9cc97-059f-4dcf-8984-24f90cd4e7c5}</destination>
 			<destination>{228078d6-8666-4e0b-ba60-fdcb7b1c39f2}</destination>
 		</relationship>
@@ -36,9 +37,29 @@
 			<value>-7.96316338</value>
 		</property>
 	</object>
+	<object class="SFXReverbEffect" id="{b8bf8e16-5f1a-4673-ab05-abaa586c85eb}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="decayTime">
+			<value>270</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>20</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-12</value>
+		</property>
+		<property name="highCut">
+			<value>2800</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{2be9cc97-059f-4dcf-8984-24f90cd4e7c5}">
 		<property name="level">
-			<value>-35</value>
+			<value>-30</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>
