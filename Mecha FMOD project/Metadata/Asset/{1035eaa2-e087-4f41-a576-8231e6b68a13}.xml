@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Bulletdrop/</value>
+			<value>SFX/General/Bulletdrop/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>

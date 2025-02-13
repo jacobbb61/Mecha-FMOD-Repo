@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d8e7d0e0-0150-4808-a823-fc4ba477b590}">
 		<property name="assetPath">
-			<value>SFX/Player Weapons/Standard Rifle/sfx_player_weapon_default_fire_v3.wav</value>
+			<value>SFX/Player Weapons/Temp - Standard Rifle/sfx_player_weapon_default_fire_v3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

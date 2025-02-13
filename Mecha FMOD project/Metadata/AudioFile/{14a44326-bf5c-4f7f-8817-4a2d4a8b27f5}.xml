@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{14a44326-bf5c-4f7f-8817-4a2d4a8b27f5}">
 		<property name="assetPath">
-			<value>SFX/Minigun/sfx_player_weapon_mini_fire_v27.wav</value>
+			<value>SFX/Player Weapons/Minigun/sfx_player_weapon_mini_fire_v27.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

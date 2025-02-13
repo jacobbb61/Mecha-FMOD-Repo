@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Explosions/Default Explosion.mp3</value>
+			<value>SFX/General/Explosions/Default Explosion.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

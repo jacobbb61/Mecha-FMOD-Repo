@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{6041ed2a-4c3a-46bc-a5c9-d98c072921df}">
 		<property name="assetPath">
-			<value>SFX/Minigun/</value>
+			<value>SFX/Player Weapons/Minigun/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>

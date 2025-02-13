@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{310d64bf-a91b-4f15-95e7-6aef07d56ee8}">
 		<property name="assetPath">
-			<value>Factory Ambience/amb_factory_spot_v4.wav</value>
+			<value>Ambience/Factory/amb_factory_spot_v4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
