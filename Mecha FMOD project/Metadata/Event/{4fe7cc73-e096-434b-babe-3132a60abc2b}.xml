@@ -8,7 +8,7 @@
 			<value>24 Gauge Shotgun Reload Finish</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e49f7907-7564-4e85-9f02-dc53c4cdc5d8}</destination>
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{539fd2c4-5123-41e3-b579-5be0bc135a75}">
 		<relationship name="effects">
 			<destination>{65473e18-fb86-4efc-a410-36c214e016f9}</destination>
-			<destination>{be1c99a5-1f67-4d00-a110-358a523c100a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5a3f7763-a5b7-4647-8295-c63a5cb97ad4}" />
@@ -113,5 +112,4 @@
 	</object>
 	<object class="MixerBusFader" id="{474b6fb5-9b92-46d7-ac09-017ef06ce22d}" />
 	<object class="MixerBusFader" id="{65473e18-fb86-4efc-a410-36c214e016f9}" />
-	<object class="SpatialiserEffect" id="{be1c99a5-1f67-4d00-a110-358a523c100a}" />
 </objects>

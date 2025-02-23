@@ -28,10 +28,10 @@
 			<value>1400</value>
 		</property>
 		<property name="earlyDelay">
-			<value>100</value>
+			<value>0</value>
 		</property>
 		<property name="lateDelay">
-			<value>100</value>
+			<value>0</value>
 		</property>
 		<property name="lowShelfFrequency">
 			<value>460</value>
@@ -47,6 +47,9 @@
 		</property>
 	</object>
 	<object class="DelayEffect" id="{f836b384-26ab-4b9a-aa7d-d93347a91034}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="delay">
 			<value>100</value>
 		</property>
@@ -59,7 +62,7 @@
 	</object>
 	<object class="MultibandEqEffect" id="{297266a4-ff43-44c4-a830-3c1db576efe6}">
 		<property name="filterTypeA">
-			<value>7</value>
+			<value>0</value>
 		</property>
 		<property name="filterTypeE">
 			<value>8</value>

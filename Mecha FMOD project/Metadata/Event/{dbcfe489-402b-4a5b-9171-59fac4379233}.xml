@@ -35,7 +35,7 @@
 			<destination>{1c72a777-1d5b-4ba3-a085-e73b3607c937}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{6a3773b5-958b-46f8-a40f-0848ee7ff144}</destination>
+			<destination>{689c72d2-2656-4b3c-8a61-546b5eed7c7a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{15f647cf-db93-4367-b381-a6e38a71430d}">
@@ -186,9 +186,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a1721de6-caac-4c74-9cd0-0dd5ae8261a7}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -232,7 +229,7 @@
 			<value>0.82642626480086123</value>
 		</property>
 		<property name="length">
-			<value>0.087636235199138768</value>
+			<value>0.10046930262955545</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{1c72a777-1d5b-4ba3-a085-e73b3607c937}</destination>
@@ -307,25 +304,37 @@
 	</object>
 	<object class="SFXReverbEffect" id="{ecf9d12c-4ddd-4422-971d-6d8926e9f406}">
 		<property name="decayTime">
-			<value>450</value>
+			<value>1100</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0.5</value>
+		</property>
+		<property name="lateDelay">
+			<value>0.5</value>
+		</property>
+		<property name="highCut">
+			<value>1900</value>
 		</property>
 		<property name="earlyLateMix">
 			<value>32</value>
 		</property>
 		<property name="wetLevel">
-			<value>-16</value>
+			<value>-11.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{61b0c345-2122-4f67-8101-3c0d9aae2c46}" />
 	<object class="CompressorEffect" id="{c76f745b-00cc-4bc4-a86e-36cb456d7846}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="threshold">
-			<value>-13.5</value>
+			<value>-17.5</value>
 		</property>
 		<property name="ratio">
-			<value>2.70000005</value>
+			<value>3.60000014</value>
 		</property>
 		<property name="attackTime">
-			<value>0.949999988</value>
+			<value>3.20000005</value>
 		</property>
 		<property name="releaseTime">
 			<value>240</value>

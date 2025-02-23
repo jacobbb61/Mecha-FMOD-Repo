@@ -33,7 +33,7 @@
 			<destination>{c0ab0639-c482-488d-959e-378ae2c0c9f0}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{6a3773b5-958b-46f8-a40f-0848ee7ff144}</destination>
+			<destination>{689c72d2-2656-4b3c-8a61-546b5eed7c7a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{4b8d69c1-631f-447c-80b0-d98707b88470}">
@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{934d8345-12f1-4933-ad4c-b12a5a13683c}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1cc54209-044a-48e6-a0ff-b590b462d883}</destination>
 		</relationship>
@@ -105,11 +108,9 @@
 		<property name="volume">
 			<value>6</value>
 		</property>
-		<property name="pitch">
-			<value>0.600000024</value>
-		</property>
 		<relationship name="modulators">
 			<destination>{863f120e-efa5-4854-b5e9-36b2a128e5be}</destination>
+			<destination>{d0c5c031-1d25-4bcb-a7b4-1777b25b7a3c}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{a55a3295-9693-4844-b8f8-5b6e175b7267}</destination>
@@ -209,6 +210,14 @@
 		</property>
 		<property name="amount">
 			<value>1.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{d0c5c031-1d25-4bcb-a7b4-1777b25b7a3c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>5</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{a55a3295-9693-4844-b8f8-5b6e175b7267}">
@@ -363,6 +372,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{585ac446-4571-4fc8-987e-8d0773570b35}">
 		<relationship name="effects">
+			<destination>{52fa07b5-29ae-4e1d-b728-ba6a2b1f37d0}</destination>
 			<destination>{cdd2b70b-6b71-4fe8-8a02-0ee526664fee}</destination>
 		</relationship>
 	</object>
@@ -375,6 +385,17 @@
 	<object class="MixerBusPanner" id="{7a4b8b2e-447b-4166-b55c-b1eb15df318e}" />
 	<object class="MixerBusFader" id="{bc266f10-ea24-4708-9220-1fd1d35c5870}" />
 	<object class="LoudnessMeter" id="{107b671e-fc21-4f09-9e35-adfb30cb9d86}" />
+	<object class="MultibandEqEffect" id="{52fa07b5-29ae-4e1d-b728-ba6a2b1f37d0}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>924.054321</value>
+		</property>
+		<property name="gainA">
+			<value>6.20689631</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cdd2b70b-6b71-4fe8-8a02-0ee526664fee}" />
 	<object class="MixerBusFader" id="{9a8ec665-ccc2-49d9-92cf-0da5c2161731}" />
 </objects>

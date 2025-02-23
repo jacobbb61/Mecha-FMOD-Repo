@@ -8,7 +8,7 @@
 			<value>25 Gauge Shotgun Fire</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e49f7907-7564-4e85-9f02-dc53c4cdc5d8}</destination>
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{ccc60c91-5105-4367-9d75-ce3b145d86f4}">
 		<relationship name="effects">
 			<destination>{653ad6b1-886f-4dc1-b22f-f53460177476}</destination>
-			<destination>{1fa42736-b9b0-4387-adb9-b4fd4b0b83ff}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a0e8291a-8a2e-4cfb-9c21-7fdbd0722f62}" />
@@ -113,7 +112,6 @@
 	</object>
 	<object class="MixerBusFader" id="{7f44ccd8-ab9f-4947-8592-f0bec1fddcda}" />
 	<object class="MixerBusFader" id="{653ad6b1-886f-4dc1-b22f-f53460177476}" />
-	<object class="SpatialiserEffect" id="{1fa42736-b9b0-4387-adb9-b4fd4b0b83ff}" />
 	<object class="SingleSound" id="{fd1ab46a-aeee-467a-808b-7f8c4ee17997}">
 		<relationship name="audioFile">
 			<destination>{1cc09426-aad0-4909-a082-10094b79e404}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{fbd2ea05-a3d1-41ef-b491-abd668a0f076}">
 		<property name="assetPath">
-			<value>mx_track1_idle.wav</value>
+			<value>Music/mx_track1_idle.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
