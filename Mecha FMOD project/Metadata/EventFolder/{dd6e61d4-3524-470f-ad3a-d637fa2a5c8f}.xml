@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EventFolder" id="{dd6e61d4-3524-470f-ad3a-d637fa2a5c8f}">
 		<property name="name">
-			<value>Charge Rifle</value>
+			<value>Pulse Rifle</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9132d1d7-77ac-413e-80ed-a598fcafd995}</destination>

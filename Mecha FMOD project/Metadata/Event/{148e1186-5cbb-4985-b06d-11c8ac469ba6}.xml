@@ -414,8 +414,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{7f84bc93-7c95-4cf1-85d4-d18ffb941702}" />
 	<object class="SFXReverbEffect" id="{db74c8fc-48e2-47f1-a879-8708c9fbc213}">
-		<property name="bypass">
-			<value>true</value>
+		<property name="earlyDelay">
+			<value>0.5</value>
+		</property>
+		<property name="lateDelay">
+			<value>0</value>
 		</property>
 		<property name="lowShelfGain">
 			<value>-14</value>

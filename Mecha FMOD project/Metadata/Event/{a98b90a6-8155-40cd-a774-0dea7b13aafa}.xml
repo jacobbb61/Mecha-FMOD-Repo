@@ -65,7 +65,7 @@
 			<value>1</value>
 		</property>
 		<property name="triggerCooldown">
-			<value>100</value>
+			<value>80</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{3286d8f6-5261-4a52-84b1-a2a37d24a961}" />
@@ -100,9 +100,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3678c037-f0a1-4a19-9b72-3c8d22f0af50}">
-		<property name="volume">
-			<value>-5.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{a245a298-b0fd-4530-a8ad-f11300d5b377}</destination>
 		</relationship>
@@ -442,6 +439,12 @@
 	<object class="SFXReverbEffect" id="{aeaee595-74a7-44ae-a7cd-bbb6029cecf8}">
 		<property name="decayTime">
 			<value>270</value>
+		</property>
+		<property name="earlyDelay">
+			<value>2</value>
+		</property>
+		<property name="lateDelay">
+			<value>0</value>
 		</property>
 		<property name="lowShelfGain">
 			<value>-17.5</value>

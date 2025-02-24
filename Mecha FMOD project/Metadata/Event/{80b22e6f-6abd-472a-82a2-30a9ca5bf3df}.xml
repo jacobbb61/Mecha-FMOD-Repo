@@ -8,7 +8,7 @@
 			<value>Standard Rifle Reload</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4451f296-1f6f-49c9-9f86-37e5c10631a1}</destination>
@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{8c218a7a-4f29-49e1-bfbf-55cebff5c64a}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-19.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{8ce21c4b-b96f-4ed0-865b-d8e155daf183}</destination>
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{8ce21c4b-b96f-4ed0-865b-d8e155daf183}">
 		<relationship name="effects">
 			<destination>{ff96134b-6786-4117-9c45-395ce3e30e33}</destination>
-			<destination>{4846e4db-072e-4b33-8af9-4f816fe28882}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c486964a-06bc-4802-b8f1-cd6e9b9dec2c}" />
@@ -113,5 +112,4 @@
 	</object>
 	<object class="MixerBusFader" id="{32b9d318-10e6-4a3c-a2f7-38563807422a}" />
 	<object class="MixerBusFader" id="{ff96134b-6786-4117-9c45-395ce3e30e33}" />
-	<object class="SpatialiserEffect" id="{4846e4db-072e-4b33-8af9-4f816fe28882}" />
 </objects>

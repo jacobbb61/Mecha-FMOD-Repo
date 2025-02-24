@@ -8,7 +8,7 @@
 			<value>Standard Rifle Fire</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4451f296-1f6f-49c9-9f86-37e5c10631a1}</destination>
@@ -76,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{dec9b9fb-b57c-4048-a854-828b813e0c74}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-20.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fd1173d0-7e27-4c12-9b68-6afea8ca1e18}</destination>
@@ -102,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{fd1173d0-7e27-4c12-9b68-6afea8ca1e18}">
 		<relationship name="effects">
 			<destination>{f697c19b-2e5a-4020-941c-ae32693ac795}</destination>
-			<destination>{1dc330b4-a1a5-4eb3-9160-4cd00313032e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a1e00eb2-9583-485a-b897-7624ec463037}" />
@@ -113,7 +112,6 @@
 	</object>
 	<object class="MixerBusFader" id="{bbe0f89e-f729-4845-aa3f-b0d5e21d1875}" />
 	<object class="MixerBusFader" id="{f697c19b-2e5a-4020-941c-ae32693ac795}" />
-	<object class="SpatialiserEffect" id="{1dc330b4-a1a5-4eb3-9160-4cd00313032e}" />
 	<object class="SingleSound" id="{da8a7321-6360-4e5c-b41e-dbffc6c5df0b}">
 		<relationship name="audioFile">
 			<destination>{89189d44-ad04-463d-a463-b84497780117}</destination>
