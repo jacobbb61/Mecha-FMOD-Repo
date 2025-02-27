@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{2516f461-3516-4530-8b9c-8e0912bf5509}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
+		<property name="name">
+			<value>Weapon</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f083fb3a-69e4-4c66-bcff-0bc748d9f084}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{256f5b45-51d7-4134-b444-915a36bd1ee0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{10800709-284b-463f-9b4c-2e4b4a3fe48f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f083fb3a-69e4-4c66-bcff-0bc748d9f084}">
+		<relationship name="effects">
+			<destination>{40de4391-1cd6-4362-83f6-adf90d6f864d}</destination>
+			<destination>{7b17adb1-b064-4620-8fb8-ead4e6ce9102}</destination>
+			<destination>{183a9393-c5c9-460c-8949-6c092f215ee7}</destination>
+			<destination>{c6242c33-ed00-43d3-ada6-0e4dd8fde369}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{256f5b45-51d7-4134-b444-915a36bd1ee0}" />
+	<object class="MultibandEqEffect" id="{40de4391-1cd6-4362-83f6-adf90d6f864d}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>203.623886</value>
+		</property>
+		<property name="frequencyE">
+			<value>4281.18994</value>
+		</property>
+		<property name="gainA">
+			<value>6.72413731</value>
+		</property>
+		<property name="gainE">
+			<value>-4.13793182</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{7b17adb1-b064-4620-8fb8-ead4e6ce9102}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="decayTime">
+			<value>1000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>50</value>
+		</property>
+		<property name="HFReference">
+			<value>1850</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>20</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>390</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-14.5</value>
+		</property>
+		<property name="highCut">
+			<value>1100</value>
+		</property>
+		<property name="wetLevel">
+			<value>-18.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{183a9393-c5c9-460c-8949-6c092f215ee7}">
+		<property name="threshold">
+			<value>-12</value>
+		</property>
+		<property name="ratio">
+			<value>3</value>
+		</property>
+		<property name="attackTime">
+			<value>0.75</value>
+		</property>
+		<property name="releaseTime">
+			<value>84</value>
+		</property>
+		<property name="gain">
+			<value>12</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{c6242c33-ed00-43d3-ada6-0e4dd8fde369}" />
+</objects>

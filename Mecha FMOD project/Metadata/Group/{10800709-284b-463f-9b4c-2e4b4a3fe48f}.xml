@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{10800709-284b-463f-9b4c-2e4b4a3fe48f}">
 		<property name="name">
-			<value>Player</value>
+			<value>Player FX</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{ad141883-795e-4bc2-ac66-697e461afed5}</destination>
@@ -11,7 +11,7 @@
 			<destination>{d0482971-aa4b-4bb1-98b7-70db0406c041}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{932db715-a48f-4cc6-b3ab-8efd26abc62e}</destination>
+			<destination>{81a6c37d-050f-42cc-9614-c148083919ab}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ad141883-795e-4bc2-ac66-697e461afed5}">
@@ -58,6 +58,9 @@
 		</property>
 	</object>
 	<object class="MixerSend" id="{2be9cc97-059f-4dcf-8984-24f90cd4e7c5}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="level">
 			<value>-30</value>
 		</property>

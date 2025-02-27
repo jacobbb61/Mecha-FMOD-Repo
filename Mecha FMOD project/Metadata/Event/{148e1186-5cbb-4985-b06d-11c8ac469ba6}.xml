@@ -114,6 +114,9 @@
 		<property name="startOffset">
 			<value>24.5</value>
 		</property>
+		<property name="pitch">
+			<value>-4.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{45565fd0-4bc0-4560-9d08-ef5a8a337e99}</destination>
 			<destination>{5f6053a9-5671-4dc8-aae2-8b057338b7b3}</destination>
@@ -128,9 +131,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e1a7d926-261e-4d6c-a13a-ca64c10fe82f}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -154,6 +154,9 @@
 		<property name="startOffset">
 			<value>25</value>
 		</property>
+		<property name="pitch">
+			<value>-2.20000005</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{dabe3b1f-3549-49a7-abdc-01ab18891222}</destination>
 			<destination>{b06817b0-c2f2-4ae4-9782-77f149ceed05}</destination>
@@ -168,9 +171,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{612acca5-3ff0-45a0-90c1-c6e2d3f6628f}">
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>

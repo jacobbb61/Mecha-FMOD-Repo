@@ -60,7 +60,7 @@
 			<destination>{da8a5a28-0634-4743-be49-8b65e5ef1da7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{10800709-284b-463f-9b4c-2e4b4a3fe48f}</destination>
+			<destination>{2516f461-3516-4530-8b9c-8e0912bf5509}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7d350f24-bcea-4ebb-a388-f44eb25d9515}" />
@@ -237,6 +237,7 @@
 			<destination>{ca224780-9f00-4418-84b0-8f7cc96992f6}</destination>
 			<destination>{c2ea3a37-7a93-443a-a29a-8e4d87451c1c}</destination>
 			<destination>{348266f1-ce28-4aa8-adbb-440b80fc5e4b}</destination>
+			<destination>{b0f642ba-e706-45b5-8c79-927210f3e6a4}</destination>
 			<destination>{56cda8e6-5807-4f2c-b474-9b42277d0adb}</destination>
 		</relationship>
 	</object>
@@ -374,6 +375,9 @@
 	</object>
 	<object class="MixerBusFader" id="{c2ea3a37-7a93-443a-a29a-8e4d87451c1c}" />
 	<object class="SFXReverbEffect" id="{348266f1-ce28-4aa8-adbb-440b80fc5e4b}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>900</value>
 		</property>
@@ -405,18 +409,41 @@
 			<value>-9</value>
 		</property>
 	</object>
+	<object class="MultibandEqEffect" id="{b0f642ba-e706-45b5-8c79-927210f3e6a4}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>90.9668198</value>
+		</property>
+		<property name="frequencyE">
+			<value>835.008057</value>
+		</property>
+		<property name="qualityA">
+			<value>0.239999995</value>
+		</property>
+		<property name="qualityE">
+			<value>0.100000001</value>
+		</property>
+		<property name="gainA">
+			<value>7.75862217</value>
+		</property>
+		<property name="gainE">
+			<value>-5.17241287</value>
+		</property>
+	</object>
 	<object class="CompressorEffect" id="{56cda8e6-5807-4f2c-b474-9b42277d0adb}">
 		<property name="threshold">
-			<value>-18.5</value>
+			<value>-9.5</value>
 		</property>
 		<property name="ratio">
-			<value>4</value>
+			<value>2.20000005</value>
 		</property>
 		<property name="attackTime">
 			<value>5.20000029</value>
-		</property>
-		<property name="gain">
-			<value>6</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{686f5d0a-11c1-4c0a-9f47-41aa37e52caa}" />

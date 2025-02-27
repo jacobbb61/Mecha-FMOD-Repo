@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{e192ec88-16cf-46bc-97df-c54bc5ccd012}">
 		<property name="name">
-			<value>Terrain</value>
+			<value>Enviroment</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f3ad5728-3f0a-4c31-b02c-3e457fbc1a56}</destination>
@@ -11,7 +11,7 @@
 			<destination>{8d2f3771-07e5-4db7-8d0a-17c34cc99e3b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{932db715-a48f-4cc6-b3ab-8efd26abc62e}</destination>
+			<destination>{81a6c37d-050f-42cc-9614-c148083919ab}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f3ad5728-3f0a-4c31-b02c-3e457fbc1a56}">
