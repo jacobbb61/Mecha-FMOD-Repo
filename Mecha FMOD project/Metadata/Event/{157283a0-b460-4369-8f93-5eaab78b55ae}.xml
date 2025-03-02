@@ -5,7 +5,7 @@
 			<value>Minigun Fire</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{dfe15593-bbee-472e-a652-750225035617}</destination>
@@ -226,7 +226,7 @@
 	<object class="MixerBusEffectChain" id="{1cc54209-044a-48e6-a0ff-b590b462d883}">
 		<relationship name="effects">
 			<destination>{bc266f10-ea24-4708-9220-1fd1d35c5870}</destination>
-			<destination>{107b671e-fc21-4f09-9e35-adfb30cb9d86}</destination>
+			<destination>{cb2b56bd-4e17-4a03-af3b-ad3470293fcc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{65835e0b-f208-4bb3-9bdc-30484e156229}" />
@@ -420,7 +420,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{7a4b8b2e-447b-4166-b55c-b1eb15df318e}" />
 	<object class="MixerBusFader" id="{bc266f10-ea24-4708-9220-1fd1d35c5870}" />
-	<object class="LoudnessMeter" id="{107b671e-fc21-4f09-9e35-adfb30cb9d86}" />
+	<object class="SpatialiserEffect" id="{cb2b56bd-4e17-4a03-af3b-ad3470293fcc}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>360</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{52fa07b5-29ae-4e1d-b728-ba6a2b1f37d0}">
 		<property name="filterTypeA">
 			<value>9</value>
@@ -474,6 +481,9 @@
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{7becb714-bbba-4827-9965-6e588672a594}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>800</value>
 		</property>

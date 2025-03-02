@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a79ec83a-0551-471f-8118-1ee7072bbcb4}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>25 Gauge Shotgun Fire</value>
 		</property>
@@ -59,7 +56,7 @@
 			<destination>{8e3a7a8b-dc38-426b-8044-86f16c0bc080}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2516f461-3516-4530-8b9c-8e0912bf5509}</destination>
+			<destination>{ded12187-c421-4116-b969-5e0c34b0e0d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d688b796-3756-4b92-8e08-f3e5e4d7fe61}" />
@@ -76,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{26e2ead0-b237-45d5-92e7-c8e2a00606a6}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-18.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{ccc60c91-5105-4367-9d75-ce3b145d86f4}</destination>
@@ -101,6 +98,8 @@
 	<object class="MixerBusPanner" id="{8e3a7a8b-dc38-426b-8044-86f16c0bc080}" />
 	<object class="MixerBusEffectChain" id="{ccc60c91-5105-4367-9d75-ce3b145d86f4}">
 		<relationship name="effects">
+			<destination>{03cc88b9-81af-4584-909f-e6750361c876}</destination>
+			<destination>{6ddd8fa9-cbd2-4092-898b-02ffbff70a95}</destination>
 			<destination>{653ad6b1-886f-4dc1-b22f-f53460177476}</destination>
 		</relationship>
 	</object>
@@ -111,6 +110,64 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7f44ccd8-ab9f-4947-8592-f0bec1fddcda}" />
+	<object class="MultibandEqEffect" id="{03cc88b9-81af-4584-909f-e6750361c876}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>8482.13477</value>
+		</property>
+		<property name="frequencyB">
+			<value>30.2687225</value>
+		</property>
+		<property name="frequencyC">
+			<value>5841.67676</value>
+		</property>
+		<property name="frequencyE">
+			<value>833.11792</value>
+		</property>
+		<property name="qualityB">
+			<value>0.539999962</value>
+		</property>
+		<property name="gainA">
+			<value>-15.5172415</value>
+		</property>
+		<property name="gainB">
+			<value>10.8620701</value>
+		</property>
+		<property name="gainC">
+			<value>-21.2068958</value>
+		</property>
+		<property name="gainE">
+			<value>-16.5517235</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{6ddd8fa9-cbd2-4092-898b-02ffbff70a95}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-12.5</value>
+		</property>
+		<property name="ratio">
+			<value>3</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>32</value>
+		</property>
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{653ad6b1-886f-4dc1-b22f-f53460177476}" />
 	<object class="SingleSound" id="{fd1ab46a-aeee-467a-808b-7f8c4ee17997}">
 		<relationship name="audioFile">

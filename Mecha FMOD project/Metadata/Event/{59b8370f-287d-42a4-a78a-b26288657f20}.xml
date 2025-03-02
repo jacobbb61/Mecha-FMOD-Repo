@@ -193,6 +193,7 @@
 			<destination>{3da6ccbe-34f5-4752-b019-0fea37d16cf2}</destination>
 			<destination>{f38967f4-1394-44e0-bd41-e0a254fca743}</destination>
 			<destination>{d5157b96-3650-4dca-ba16-69a19a6b8b41}</destination>
+			<destination>{ba363053-4a86-474a-ba28-5eb98cb43e29}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a69ee915-a363-46d3-b049-d44830ec17b7}" />
@@ -306,6 +307,26 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d5157b96-3650-4dca-ba16-69a19a6b8b41}" />
+	<object class="ObjectSpatialiserEffect" id="{ba363053-4a86-474a-ba28-5eb98cb43e29}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="minimumDistance">
+			<value>10000</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>360</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{b11a46d0-30cb-4613-b6ee-c740a9096212}">
 		<relationship name="parameter">
 			<destination>{9d7dd415-043c-43f4-a8a7-f21bceb0bb3f}</destination>

@@ -145,9 +145,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f7d50c0e-31c3-4124-88dc-bba991f603be}">
-		<property name="volume">
-			<value>-4.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{71400024-6572-425d-be32-0646a2018e4f}</destination>
 		</relationship>
@@ -720,6 +717,9 @@
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{2351c323-2e7d-4941-8f5c-63db7f6b6886}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="filterTypeA">
 			<value>8</value>
 		</property>

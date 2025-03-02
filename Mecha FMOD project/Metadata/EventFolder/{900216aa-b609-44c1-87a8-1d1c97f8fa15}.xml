@@ -8,7 +8,7 @@
 			<value>Loot</value>
 		</property>
 		<relationship name="folder">
-			<destination>{49c3c584-117a-42a9-9ed7-8538451d5186}</destination>
+			<destination>{91ab22fa-b500-4ad3-b357-c964f7164fc8}</destination>
 		</relationship>
 	</object>
 </objects>

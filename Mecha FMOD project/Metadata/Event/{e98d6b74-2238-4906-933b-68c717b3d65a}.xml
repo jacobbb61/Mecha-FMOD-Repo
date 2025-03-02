@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e98d6b74-2238-4906-933b-68c717b3d65a}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>Default Explosion</value>
 		</property>
@@ -98,8 +95,9 @@
 	<object class="MixerBusPanner" id="{3b76d9ac-342a-41a9-8c7d-991aca12633e}" />
 	<object class="MixerBusEffectChain" id="{ed76fcc2-145f-4906-8cb9-18f42b0f7b89}">
 		<relationship name="effects">
+			<destination>{1d0d5b2f-69a4-45eb-8fa8-c26f850fba0e}</destination>
 			<destination>{bd2207b1-de4a-42e0-b32a-e073a1791748}</destination>
-			<destination>{2eb0cbbe-7d4a-4659-a658-0fa3d9c64833}</destination>
+			<destination>{e110266d-93d0-46dc-bbcf-570e8844640e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e4793765-5ce9-4f10-8f6a-dd677407bdbb}" />
@@ -109,6 +107,45 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{48296150-4992-47c8-8f92-2761bb054047}" />
+	<object class="MultibandEqEffect" id="{1d0d5b2f-69a4-45eb-8fa8-c26f850fba0e}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>31.5493565</value>
+		</property>
+		<property name="frequencyE">
+			<value>4847.90039</value>
+		</property>
+		<property name="qualityA">
+			<value>0.439999998</value>
+		</property>
+		<property name="gainA">
+			<value>10.8620701</value>
+		</property>
+		<property name="gainE">
+			<value>-2.58620834</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{bd2207b1-de4a-42e0-b32a-e073a1791748}" />
-	<object class="SpatialiserEffect" id="{2eb0cbbe-7d4a-4659-a658-0fa3d9c64833}" />
+	<object class="SpatialiserEffect" id="{e110266d-93d0-46dc-bbcf-570e8844640e}">
+		<property name="minimumDistance">
+			<value>3</value>
+		</property>
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+	</object>
 </objects>

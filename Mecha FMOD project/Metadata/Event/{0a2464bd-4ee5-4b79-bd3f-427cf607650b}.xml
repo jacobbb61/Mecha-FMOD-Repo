@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0a2464bd-4ee5-4b79-bd3f-427cf607650b}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>Energy Rifle Reload Charge</value>
 		</property>
@@ -173,7 +170,7 @@
 	</object>
 	<object class="AutomationPoint" id="{6c3bd4ee-cfb4-44e5-914f-120801b13f7f}">
 		<property name="position">
-			<value>0.92128632938643673</value>
+			<value>0.765625</value>
 		</property>
 		<property name="value">
 			<value>1</value>

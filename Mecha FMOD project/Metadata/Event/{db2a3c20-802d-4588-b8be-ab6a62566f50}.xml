@@ -110,6 +110,12 @@
 		<property name="length">
 			<value>0.69587500000000002</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{86db4b60-e261-4275-aee7-d305552d9d76}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{c5aba317-b5b0-4fd6-a378-14b067bc5433}</destination>
 			<destination>{4cbaf69d-18b0-4ddf-b986-a2525f09ffc2}</destination>
@@ -135,10 +141,19 @@
 	<object class="MixerBusEffectChain" id="{a140415f-afb9-4bc1-912c-44e3fe37c27b}">
 		<relationship name="effects">
 			<destination>{832141d0-a435-4188-a2a1-129c21654b59}</destination>
+			<destination>{d330a455-8fc5-459a-9e70-ef4118b66eef}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8dbed696-4d52-4f55-bd9e-6a979ad3205b}" />
 	<object class="MixerBusFader" id="{8d9b77ef-af5f-46d0-90ba-be08782ad5c4}" />
+	<object class="RandomizerModulator" id="{86db4b60-e261-4275-aee7-d305552d9d76}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>6</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{c5aba317-b5b0-4fd6-a378-14b067bc5433}">
 		<relationship name="audioFile">
 			<destination>{45d8bb6e-7c9f-452e-bac7-0be3008731fc}</destination>
@@ -171,5 +186,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{16221177-b368-4db1-a761-c44e0553651b}" />
 	<object class="MixerBusFader" id="{832141d0-a435-4188-a2a1-129c21654b59}" />
+	<object class="ObjectSpatialiserEffect" id="{d330a455-8fc5-459a-9e70-ef4118b66eef}">
+		<property name="minimumDistance">
+			<value>10000</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>360</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ba0273bd-f7a7-4872-b68b-040e71f521f3}" />
 </objects>

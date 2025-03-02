@@ -42,7 +42,7 @@
 			<value>true</value>
 		</property>
 		<property name="decayTime">
-			<value>270</value>
+			<value>1200</value>
 		</property>
 		<property name="earlyDelay">
 			<value>0</value>
@@ -58,11 +58,8 @@
 		</property>
 	</object>
 	<object class="MixerSend" id="{2be9cc97-059f-4dcf-8984-24f90cd4e7c5}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="level">
-			<value>-30</value>
+			<value>-12</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>

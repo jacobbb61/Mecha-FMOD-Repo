@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4fe7cc73-e096-434b-babe-3132a60abc2b}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>24 Gauge Shotgun Reload Finish</value>
 		</property>

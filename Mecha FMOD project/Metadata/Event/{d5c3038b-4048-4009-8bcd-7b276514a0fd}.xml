@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d5c3038b-4048-4009-8bcd-7b276514a0fd}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>Not So Mini Gun Reload Mag Swap In</value>
 		</property>
@@ -11,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{dfe15593-bbee-472e-a652-750225035617}</destination>
+			<destination>{d1cb7d15-5567-4f0d-9ba4-243bbb5f9753}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6f3ad5fc-c034-428f-8925-aff76804cca9}</destination>
