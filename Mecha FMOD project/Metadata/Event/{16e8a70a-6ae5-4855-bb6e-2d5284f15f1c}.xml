@@ -5,7 +5,7 @@
 			<value>Spider Spawn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3a655089-7a09-4fb6-87aa-65272eebfed8}</destination>
@@ -80,9 +80,24 @@
 	<object class="MixerBusEffectChain" id="{16556584-3861-4ef9-b347-7a6fe4c7584c}">
 		<relationship name="effects">
 			<destination>{da538484-a6c4-4798-98bb-c82f0a3ed3b4}</destination>
+			<destination>{7bfddd80-6698-4f12-9c41-c6c191be1b09}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5efee776-7a39-4d07-a009-de110e2c6186}" />
 	<object class="MixerBusFader" id="{bdd7759d-ae4d-44f4-8f62-ba060fdb3e49}" />
 	<object class="MixerBusFader" id="{da538484-a6c4-4798-98bb-c82f0a3ed3b4}" />
+	<object class="SpatialiserEffect" id="{7bfddd80-6698-4f12-9c41-c6c191be1b09}">
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+	</object>
 </objects>

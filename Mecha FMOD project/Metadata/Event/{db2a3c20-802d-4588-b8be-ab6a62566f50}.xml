@@ -141,7 +141,6 @@
 	<object class="MixerBusEffectChain" id="{a140415f-afb9-4bc1-912c-44e3fe37c27b}">
 		<relationship name="effects">
 			<destination>{832141d0-a435-4188-a2a1-129c21654b59}</destination>
-			<destination>{d330a455-8fc5-459a-9e70-ef4118b66eef}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8dbed696-4d52-4f55-bd9e-6a979ad3205b}" />
@@ -186,22 +185,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{16221177-b368-4db1-a761-c44e0553651b}" />
 	<object class="MixerBusFader" id="{832141d0-a435-4188-a2a1-129c21654b59}" />
-	<object class="ObjectSpatialiserEffect" id="{d330a455-8fc5-459a-9e70-ef4118b66eef}">
-		<property name="minimumDistance">
-			<value>10000</value>
-		</property>
-		<property name="maximumDistance">
-			<value>10000</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="minimumExtent">
-			<value>360</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{ba0273bd-f7a7-4872-b68b-040e71f521f3}" />
 </objects>

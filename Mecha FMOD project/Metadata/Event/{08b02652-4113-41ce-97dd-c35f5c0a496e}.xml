@@ -5,7 +5,7 @@
 			<value>Bomber Spawn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{92223c40-6ab0-4929-aeba-141bf1be3449}</destination>
@@ -80,9 +80,24 @@
 	<object class="MixerBusEffectChain" id="{d30880cf-6a91-4674-9005-782f11271274}">
 		<relationship name="effects">
 			<destination>{1e7e7ae0-61fa-4f11-989f-acc182d02432}</destination>
+			<destination>{35011217-5044-4862-9d22-8808c638cd75}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{38c9f319-3bcb-4d0a-9af7-228cfacfc7d1}" />
 	<object class="MixerBusFader" id="{e9d90857-3481-4300-926e-6376eea77441}" />
 	<object class="MixerBusFader" id="{1e7e7ae0-61fa-4f11-989f-acc182d02432}" />
+	<object class="SpatialiserEffect" id="{35011217-5044-4862-9d22-8808c638cd75}">
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+	</object>
 </objects>

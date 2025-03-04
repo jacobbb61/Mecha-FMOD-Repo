@@ -158,7 +158,6 @@
 			<destination>{dde941e1-bb5e-49ac-b0f0-3ef5a4001faf}</destination>
 			<destination>{51a17ba7-9b5b-44b2-8ad0-8b4bfbabad65}</destination>
 			<destination>{7ea87e13-0187-41c2-910f-4845427f2104}</destination>
-			<destination>{c64b52b8-6082-4be3-b6f7-a19df0788fc1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3a36e92d-d53a-48ce-af1f-992174a9d5cf}" />
@@ -246,23 +245,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{7ea87e13-0187-41c2-910f-4845427f2104}" />
-	<object class="ObjectSpatialiserEffect" id="{c64b52b8-6082-4be3-b6f7-a19df0788fc1}">
-		<property name="minimumDistance">
-			<value>10000</value>
-		</property>
-		<property name="maximumDistance">
-			<value>10000</value>
-		</property>
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="minimumExtent">
-			<value>360</value>
-		</property>
-	</object>
 	<object class="MultibandEqEffect" id="{8998634c-d9f1-49a4-8d38-36e1503d078d}">
 		<property name="filterTypeA">
 			<value>0</value>

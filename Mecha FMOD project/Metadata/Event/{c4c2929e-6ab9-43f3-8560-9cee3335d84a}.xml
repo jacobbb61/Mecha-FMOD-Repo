@@ -5,7 +5,7 @@
 			<value>Shielder Spawn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8f6ccd49-7eb3-4c28-a7bd-a7e799f7302a}</destination>
@@ -80,9 +80,24 @@
 	<object class="MixerBusEffectChain" id="{a0491e29-37cd-4b6d-ae2b-e97b44450732}">
 		<relationship name="effects">
 			<destination>{41984522-b103-4ecf-bc28-e423526f2ef0}</destination>
+			<destination>{727228e7-c1dc-4ba1-98e9-e3b809d9a273}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{77444cfa-4728-4553-b640-1e99945fb132}" />
 	<object class="MixerBusFader" id="{e40eb2dc-a4cd-4326-b574-2ed7dfacdc39}" />
 	<object class="MixerBusFader" id="{41984522-b103-4ecf-bc28-e423526f2ef0}" />
+	<object class="SpatialiserEffect" id="{727228e7-c1dc-4ba1-98e9-e3b809d9a273}">
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
+		</property>
+	</object>
 </objects>

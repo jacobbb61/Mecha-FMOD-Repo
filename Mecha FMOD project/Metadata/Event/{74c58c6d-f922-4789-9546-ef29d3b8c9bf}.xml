@@ -92,13 +92,16 @@
 		<property name="length">
 			<value>0.6186666666666667</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{f308a650-9ed2-4c0f-89a9-3ef59bb59a67}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{53ed32bb-cd95-4698-9086-cb80b47a0bc4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bbd83240-25a1-41cb-92fa-6b7fba96840c}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-1.5</value>
 		</property>
 		<property name="name">
 			<value>Reload</value>
@@ -115,11 +118,20 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{fe743a6b-bae7-437b-9c73-4aabdc5de812}">
 		<relationship name="effects">
+			<destination>{b2a99366-5178-4349-91ea-72f8012391af}</destination>
 			<destination>{f59128d9-e714-4a86-a47b-c89959a125f1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{483c53dd-5d98-4d21-9603-2c050036aa20}" />
 	<object class="MixerBusFader" id="{a14917cd-c571-4a80-9907-89b82090a9ed}" />
+	<object class="RandomizerModulator" id="{f308a650-9ed2-4c0f-89a9-3ef59bb59a67}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>3.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{ca46f01a-57a8-4a77-b384-d2af844f26b9}">
 		<relationship name="effects">
 			<destination>{d845ed7c-c540-49cf-802d-23eba5eb0737}</destination>
@@ -127,6 +139,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4c2e7c1a-8097-467b-bded-a5739c16663c}" />
+	<object class="MultibandEqEffect" id="{b2a99366-5178-4349-91ea-72f8012391af}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>277.844482</value>
+		</property>
+		<property name="qualityA">
+			<value>0.686068952</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f59128d9-e714-4a86-a47b-c89959a125f1}" />
 	<object class="MultibandEqEffect" id="{d845ed7c-c540-49cf-802d-23eba5eb0737}">
 		<property name="filterTypeA">
