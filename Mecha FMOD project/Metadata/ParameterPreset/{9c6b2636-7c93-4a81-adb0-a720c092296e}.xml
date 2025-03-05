@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9c6b2636-7c93-4a81-adb0-a720c092296e}">
+		<property name="name">
+			<value>Willy Lenght</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0d4baf6-6bdd-4ad9-b572-6134a6d1466e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cf1d0f00-bf37-499d-a4cb-4e5fa2f676bb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cf1d0f00-bf37-499d-a4cb-4e5fa2f676bb}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Long</value>
+			<value>Mid</value>
+			<value>Short</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

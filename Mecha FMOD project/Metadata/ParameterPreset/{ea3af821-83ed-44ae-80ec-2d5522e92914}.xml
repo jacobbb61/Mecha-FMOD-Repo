@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ea3af821-83ed-44ae-80ec-2d5522e92914}">
+		<property name="name">
+			<value>CanTalk</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cce71ff1-5625-4e18-ac1a-21743af54efc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7d9438cc-b3d9-4594-9d66-f1348659780b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7d9438cc-b3d9-4594-9d66-f1348659780b}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>500</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>2500</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

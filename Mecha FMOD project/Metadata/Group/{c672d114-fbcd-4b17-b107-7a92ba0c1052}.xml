@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{c672d114-fbcd-4b17-b107-7a92ba0c1052}">
+		<property name="name">
+			<value>Willy</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{54fa4a0d-73a8-40cd-856f-e193dce0abe8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{600bbc48-041e-4181-b684-a917d3b10a17}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e862df76-bc76-4465-bba4-bbd50a95588c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{54fa4a0d-73a8-40cd-856f-e193dce0abe8}">
+		<relationship name="effects">
+			<destination>{dec6799a-2c36-40ed-a03a-083bc7cd4dfb}</destination>
+			<destination>{7b85fc27-66c2-43f4-af4e-aaafda7af872}</destination>
+			<destination>{0bb584bd-dfe2-409e-9f56-a426f56e6c12}</destination>
+			<destination>{740b5629-7af6-42e0-bd89-a91dd049506f}</destination>
+			<destination>{bf970ee9-8eac-40f2-992c-2748a405a55d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{600bbc48-041e-4181-b684-a917d3b10a17}" />
+	<object class="SFXReverbEffect" id="{dec6799a-2c36-40ed-a03a-083bc7cd4dfb}">
+		<property name="decayTime">
+			<value>550</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>0</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-11</value>
+		</property>
+		<property name="highCut">
+			<value>2300</value>
+		</property>
+		<property name="wetLevel">
+			<value>-27</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{7b85fc27-66c2-43f4-af4e-aaafda7af872}">
+		<property name="filterTypeA">
+			<value>6</value>
+		</property>
+		<property name="filterTypeE">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>447.46637</value>
+		</property>
+		<property name="frequencyE">
+			<value>3703.19922</value>
+		</property>
+		<property name="qualityA">
+			<value>0.929931104</value>
+		</property>
+		<property name="qualityE">
+			<value>1.15286207</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{0bb584bd-dfe2-409e-9f56-a426f56e6c12}">
+		<property name="threshold">
+			<value>-30</value>
+		</property>
+		<property name="ratio">
+			<value>3.4000001</value>
+		</property>
+		<property name="attackTime">
+			<value>2.79999995</value>
+		</property>
+		<property name="releaseTime">
+			<value>62</value>
+		</property>
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{740b5629-7af6-42e0-bd89-a91dd049506f}" />
+	<object class="PannerEffect" id="{bf970ee9-8eac-40f2-992c-2748a405a55d}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
