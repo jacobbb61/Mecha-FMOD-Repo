@@ -25,8 +25,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{600bbc48-041e-4181-b684-a917d3b10a17}" />
 	<object class="SFXReverbEffect" id="{dec6799a-2c36-40ed-a03a-083bc7cd4dfb}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
-			<value>550</value>
+			<value>400</value>
 		</property>
 		<property name="earlyDelay">
 			<value>0</value>
@@ -41,7 +44,7 @@
 			<value>2300</value>
 		</property>
 		<property name="wetLevel">
-			<value>-27</value>
+			<value>-44</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{7b85fc27-66c2-43f4-af4e-aaafda7af872}">
@@ -52,16 +55,13 @@
 			<value>3</value>
 		</property>
 		<property name="frequencyA">
-			<value>447.46637</value>
+			<value>610.5672</value>
 		</property>
 		<property name="frequencyE">
-			<value>3703.19922</value>
+			<value>7970.95898</value>
 		</property>
 		<property name="qualityA">
-			<value>0.929931104</value>
-		</property>
-		<property name="qualityE">
-			<value>1.15286207</value>
+			<value>0.539551735</value>
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{0bb584bd-dfe2-409e-9f56-a426f56e6c12}">

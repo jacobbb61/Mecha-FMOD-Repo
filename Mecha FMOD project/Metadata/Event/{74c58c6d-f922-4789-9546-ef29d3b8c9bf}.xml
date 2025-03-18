@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d097e1ca-2056-4a3d-9727-44e784b2e2fb}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{fe743a6b-bae7-437b-9c73-4aabdc5de812}</destination>
 		</relationship>
@@ -90,19 +93,22 @@
 	<object class="MixerBusPanner" id="{8f79dec8-cb09-4c31-880d-c66c8654d320}" />
 	<object class="SingleSound" id="{167f7ad8-7b34-4a45-b5f6-17efb10fcc0d}">
 		<property name="length">
-			<value>0.6186666666666667</value>
+			<value>0.359375</value>
+		</property>
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{f308a650-9ed2-4c0f-89a9-3ef59bb59a67}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{91711717-53cb-4319-9878-2a0f6f6c8937}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{53ed32bb-cd95-4698-9086-cb80b47a0bc4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bbd83240-25a1-41cb-92fa-6b7fba96840c}">
-		<property name="volume">
-			<value>-1.5</value>
-		</property>
 		<property name="name">
 			<value>Reload</value>
 		</property>
@@ -119,7 +125,9 @@
 	<object class="MixerBusEffectChain" id="{fe743a6b-bae7-437b-9c73-4aabdc5de812}">
 		<relationship name="effects">
 			<destination>{b2a99366-5178-4349-91ea-72f8012391af}</destination>
+			<destination>{f68f9c7d-4f98-4f5e-85ac-2e64507abb9c}</destination>
 			<destination>{f59128d9-e714-4a86-a47b-c89959a125f1}</destination>
+			<destination>{05489764-7d82-4ced-ae7d-fd154167d32e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{483c53dd-5d98-4d21-9603-2c050036aa20}" />
@@ -131,6 +139,14 @@
 		<property name="amount">
 			<value>3.5</value>
 		</property>
+	</object>
+	<object class="FadeCurve" id="{91711717-53cb-4319-9878-2a0f6f6c8937}">
+		<relationship name="startPoint">
+			<destination>{70b8c249-2f81-40fd-bcef-deaa601b8bd4}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{e3c180fb-4f5e-4d0b-8ffc-634861cd8d25}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ca46f01a-57a8-4a77-b384-d2af844f26b9}">
 		<relationship name="effects">
@@ -144,13 +160,60 @@
 			<value>4</value>
 		</property>
 		<property name="frequencyA">
-			<value>277.844482</value>
+			<value>429.303101</value>
 		</property>
 		<property name="qualityA">
-			<value>0.686068952</value>
+			<value>2.51724148</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{f68f9c7d-4f98-4f5e-85ac-2e64507abb9c}">
+		<property name="threshold">
+			<value>-57.5</value>
+		</property>
+		<property name="ratio">
+			<value>3.10000014</value>
+		</property>
+		<property name="attackTime">
+			<value>0.900000036</value>
+		</property>
+		<property name="releaseTime">
+			<value>68</value>
+		</property>
+		<property name="gain">
+			<value>12</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f59128d9-e714-4a86-a47b-c89959a125f1}" />
+	<object class="MultibandEqEffect" id="{05489764-7d82-4ced-ae7d-fd154167d32e}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>1427.7749</value>
+		</property>
+		<property name="gainA">
+			<value>-19.1379318</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{70b8c249-2f81-40fd-bcef-deaa601b8bd4}">
+		<property name="position">
+			<value>0.1015625</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.582136929</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e3c180fb-4f5e-4d0b-8ffc-634861cd8d25}">
+		<property name="position">
+			<value>0.359375</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{d845ed7c-c540-49cf-802d-23eba5eb0737}">
 		<property name="filterTypeA">
 			<value>8</value>

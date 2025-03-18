@@ -59,7 +59,14 @@
 			<destination>{ded12187-c421-4116-b969-5e0c34b0e0d4}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{41ef97d2-f2b5-481f-b5f2-79e9d5cd4a9f}" />
+	<object class="EventAutomatableProperties" id="{41ef97d2-f2b5-481f-b5f2-79e9d5cd4a9f}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{3e23db90-6801-44a1-8de7-2e9c3c113ae2}" />
 	<object class="Timeline" id="{ebd1203f-1d31-4e6a-b1ec-2f110aed2b2b}">
 		<property name="isProxyEnabled">
@@ -73,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{cffb4b98-b160-49f4-a8b5-3445b9291132}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-21.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2f6ef894-d5d2-474a-8c9c-7ed650db95eb}</destination>
@@ -99,8 +106,9 @@
 	<object class="MixerBusEffectChain" id="{2f6ef894-d5d2-474a-8c9c-7ed650db95eb}">
 		<relationship name="effects">
 			<destination>{861fd6ef-c7ab-44f3-8b8d-13c54c89da76}</destination>
-			<destination>{52a392e2-bd03-4704-a8da-747c71625ca9}</destination>
 			<destination>{314781b7-035a-4ddb-8773-c284c374e48f}</destination>
+			<destination>{e5e7c71a-e4db-4dfd-8cca-251efdfd7fc5}</destination>
+			<destination>{27dcdf6e-2241-47fa-acd7-219e9ded2b38}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c8fb81fa-9612-4058-ba0a-8f2a3b68d8fe}" />
@@ -111,17 +119,30 @@
 	</object>
 	<object class="MixerBusFader" id="{40bcb31f-38bd-4c03-af79-0d9c4e67dc95}" />
 	<object class="MixerBusFader" id="{861fd6ef-c7ab-44f3-8b8d-13c54c89da76}" />
-	<object class="SpatialiserEffect" id="{52a392e2-bd03-4704-a8da-747c71625ca9}">
-		<property name="overrideRange">
+	<object class="SFXReverbEffect" id="{314781b7-035a-4ddb-8773-c284c374e48f}">
+		<property name="bypass">
 			<value>true</value>
 		</property>
-	</object>
-	<object class="SFXReverbEffect" id="{314781b7-035a-4ddb-8773-c284c374e48f}">
 		<property name="decayTime">
 			<value>1700</value>
 		</property>
 		<property name="lateDelay">
 			<value>23.5</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{e5e7c71a-e4db-4dfd-8cca-251efdfd7fc5}" />
+	<object class="SpatialiserEffect" id="{27dcdf6e-2241-47fa-acd7-219e9ded2b38}">
+		<property name="maximumDistance">
+			<value>80</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>50</value>
 		</property>
 	</object>
 </objects>

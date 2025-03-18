@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d92b1861-3c88-474c-8fa7-72952f8559bc}">
+		<property name="assetPath">
+			<value>sfx_player_pulse_pew_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.39333333333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
+		</relationship>
+	</object>
+</objects>

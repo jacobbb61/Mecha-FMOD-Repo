@@ -56,10 +56,20 @@
 			<destination>{3b76d9ac-342a-41a9-8c7d-991aca12633e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{10800709-284b-463f-9b4c-2e4b4a3fe48f}</destination>
+			<destination>{e192ec88-16cf-46bc-97df-c54bc5ccd012}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{7c23a669-fa7f-436a-b5f6-d6312a570eca}" />
+	<object class="EventAutomatableProperties" id="{7c23a669-fa7f-436a-b5f6-d6312a570eca}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>120</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{53ee49d3-9306-4596-9f4c-a0448daf0a42}" />
 	<object class="Timeline" id="{8aa04bbb-fa0e-471c-872d-c92ba4d0712b}">
 		<property name="isProxyEnabled">
@@ -72,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{119f039a-d7b7-4255-8d13-29e0b2fb2629}">
+		<property name="volume">
+			<value>-13.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ed76fcc2-145f-4906-8cb9-18f42b0f7b89}</destination>
 		</relationship>
@@ -97,6 +110,7 @@
 		<relationship name="effects">
 			<destination>{1d0d5b2f-69a4-45eb-8fa8-c26f850fba0e}</destination>
 			<destination>{bd2207b1-de4a-42e0-b32a-e073a1791748}</destination>
+			<destination>{b0cef935-a860-4072-88a7-2b3651ea2882}</destination>
 			<destination>{e110266d-93d0-46dc-bbcf-570e8844640e}</destination>
 		</relationship>
 	</object>
@@ -131,6 +145,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{bd2207b1-de4a-42e0-b32a-e073a1791748}" />
+	<object class="LoudnessMeter" id="{b0cef935-a860-4072-88a7-2b3651ea2882}" />
 	<object class="SpatialiserEffect" id="{e110266d-93d0-46dc-bbcf-570e8844640e}">
 		<property name="minimumDistance">
 			<value>3</value>

@@ -145,6 +145,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f7d50c0e-31c3-4124-88dc-bba991f603be}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{71400024-6572-425d-be32-0646a2018e4f}</destination>
 		</relationship>
@@ -398,6 +401,7 @@
 			<destination>{4743c429-00fc-44af-9343-34a7abd872d5}</destination>
 			<destination>{ba43a31f-2f9d-49c3-a7b0-6bdd379f6e4f}</destination>
 			<destination>{deae7988-9303-4c0d-98a9-1ad8bdd93e73}</destination>
+			<destination>{e3dbcdf2-8a69-4d01-afc3-f99089dd6dae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c0cc221e-4c89-49a3-8d32-d6dd8762d1ee}" />
@@ -446,6 +450,7 @@
 	<object class="MixerBusEffectChain" id="{594c94a1-1c04-4ede-b746-a2a44a24ae6e}">
 		<relationship name="effects">
 			<destination>{11d667b3-1d00-4245-bca5-dcbfa333550d}</destination>
+			<destination>{df50a811-3f93-45e0-80a1-c9564fe630eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0f7d79cb-8d76-40d7-b016-b109c3ab75f5}" />
@@ -540,7 +545,7 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>4555.7417</value>
+			<value>14238.3682</value>
 		</property>
 		<property name="frequencyB">
 			<value>43.0490456</value>
@@ -555,7 +560,7 @@
 			<value>0.280000001</value>
 		</property>
 		<property name="gainA">
-			<value>-0.517240524</value>
+			<value>-5.6896553</value>
 		</property>
 		<property name="gainB">
 			<value>10.8620701</value>
@@ -579,6 +584,23 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{deae7988-9303-4c0d-98a9-1ad8bdd93e73}" />
+	<object class="SFXReverbEffect" id="{e3dbcdf2-8a69-4d01-afc3-f99089dd6dae}">
+		<property name="decayTime">
+			<value>3100</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>49</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>71</value>
+		</property>
+		<property name="wetLevel">
+			<value>-18.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{010be0f2-92cb-4c95-9606-5e2d1d9faf5a}" />
 	<object class="AutomationPoint" id="{2cde3626-23e3-4645-91b8-3dbf3bc0c60c}">
 		<property name="position">
@@ -620,6 +642,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{11d667b3-1d00-4245-bca5-dcbfa333550d}" />
+	<object class="LoudnessMeter" id="{df50a811-3f93-45e0-80a1-c9564fe630eb}" />
 	<object class="AutomationPoint" id="{2f0908b2-357c-4674-b649-8cada171591b}">
 		<property name="position">
 			<value>0.46875</value>

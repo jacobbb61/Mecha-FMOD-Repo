@@ -49,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{a5ad6210-ccc1-4b92-9f2b-54c738380459}">
+		<relationship name="automationTracks">
+			<destination>{6085e0fe-5c28-4774-88a4-6106d8e4cbbd}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{f1cf0d06-7054-4309-a8cc-86c42d2921b0}</destination>
 			<destination>{0ac124ad-3821-486b-9573-158bd38c6243}</destination>
@@ -128,6 +131,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1854bde3-90bf-4792-ad31-7eb4610ed1ea}">
+		<relationship name="automators">
+			<destination>{14987b59-0fb1-4dd3-b3b1-dbf739d818c7}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{4af9b6cb-2667-46f7-a022-37ae23df5d63}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{81473ea3-b08c-45ff-8575-e71185f33655}</destination>
 		</relationship>
@@ -136,6 +145,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{04bd931b-b4dd-4848-b3d6-37833f0d99bf}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{6085e0fe-5c28-4774-88a4-6106d8e4cbbd}">
+		<relationship name="automator">
+			<destination>{14987b59-0fb1-4dd3-b3b1-dbf739d818c7}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{f1cf0d06-7054-4309-a8cc-86c42d2921b0}">
@@ -174,7 +188,6 @@
 		<property name="length">
 			<value>48.999916666666664</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{fbd2ea05-a3d1-41ef-b491-abd668a0f076}</destination>
 		</relationship>
@@ -206,6 +219,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{2a77aaef-64b4-45f3-826b-ecc716b870ae}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -226,7 +242,6 @@
 		<property name="length">
 			<value>132</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{e65d5902-b0d8-47d4-9ab1-039edf0111f6}</destination>
 		</relationship>
@@ -255,7 +270,7 @@
 	<object class="TransitionDestinationSound" id="{fb47eece-c342-484c-b523-1ff7df1faaf1}" />
 	<object class="EventMixerGroup" id="{36d619ee-ea09-4ea2-9df3-9b5b9b095ad1}">
 		<property name="volume">
-			<value>4</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -433,6 +448,34 @@
 		<relationship name="markerTrack">
 			<destination>{187f7bb5-c582-48d1-96a9-0a631e1527ad}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{14987b59-0fb1-4dd3-b3b1-dbf739d818c7}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{4af9b6cb-2667-46f7-a022-37ae23df5d63}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>520</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>420</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{81473ea3-b08c-45ff-8575-e71185f33655}">
 		<relationship name="effects">

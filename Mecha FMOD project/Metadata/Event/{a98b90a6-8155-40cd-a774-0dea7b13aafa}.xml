@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{3678c037-f0a1-4a19-9b72-3c8d22f0af50}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{a245a298-b0fd-4530-a8ad-f11300d5b377}</destination>
@@ -183,6 +183,7 @@
 			<destination>{10cdefb0-bc8c-4612-9483-265a3b2e4d4f}</destination>
 			<destination>{db78b391-e2f5-4b1f-98c1-ebe0d7787839}</destination>
 			<destination>{1665ced5-f543-4b96-bb9f-3f456973ead4}</destination>
+			<destination>{030306aa-106b-46dd-a0ae-c2aaa3dc19ba}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{508038d9-bf2b-431c-aeea-6698e1ca26c2}</destination>
@@ -221,6 +222,7 @@
 			<destination>{234cbbed-3d42-4108-aed3-095a3681fac7}</destination>
 			<destination>{cadcfe7d-7f00-4c0f-ab7a-bf29971e2314}</destination>
 			<destination>{5e28974e-972a-46d0-8c7b-47d9d6b4f045}</destination>
+			<destination>{60288a5b-9a81-42c7-8785-43d5e5fd7e4c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{917a6296-c401-4336-9332-115daf9c2f85}" />
@@ -335,6 +337,32 @@
 			<value>26</value>
 		</property>
 	</object>
+	<object class="ADSRModulator" id="{030306aa-106b-46dd-a0ae-c2aaa3dc19ba}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>480</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>0</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{508038d9-bf2b-431c-aeea-6698e1ca26c2}">
 		<relationship name="audioFile">
 			<destination>{b036971b-15e5-488f-a504-19f4edb2dffa}</destination>
@@ -446,7 +474,7 @@
 			<value>466.398163</value>
 		</property>
 		<property name="frequencyB">
-			<value>62.5073624</value>
+			<value>59.9701004</value>
 		</property>
 		<property name="frequencyD">
 			<value>1869.11658</value>
@@ -458,7 +486,7 @@
 			<value>0.686068952</value>
 		</property>
 		<property name="qualityB">
-			<value>1.06368971</value>
+			<value>0.476758599</value>
 		</property>
 		<property name="qualityD">
 			<value>0.439999998</value>
@@ -532,6 +560,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5e28974e-972a-46d0-8c7b-47d9d6b4f045}" />
+	<object class="LoudnessMeter" id="{60288a5b-9a81-42c7-8785-43d5e5fd7e4c}" />
 	<object class="MixerBusFader" id="{6d80b39b-aab8-4973-8a95-37ae2c9878b9}" />
 	<object class="MultibandEqEffect" id="{ff5dfc8b-8797-4266-ab4c-eae1c16a52c9}">
 		<property name="bypass">

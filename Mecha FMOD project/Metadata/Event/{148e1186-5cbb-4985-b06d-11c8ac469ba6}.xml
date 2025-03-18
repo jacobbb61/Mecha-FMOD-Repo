@@ -88,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{19d0bca0-5386-4cb0-a8d4-617930a3dedb}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6da5f154-6188-45ac-b318-51dae093c552}</destination>
 		</relationship>
@@ -112,7 +115,7 @@
 			<value>0.296875</value>
 		</property>
 		<property name="startOffset">
-			<value>24.5</value>
+			<value>25.5</value>
 		</property>
 		<property name="pitch">
 			<value>-4.5</value>
@@ -263,7 +266,10 @@
 			<value>0</value>
 		</property>
 		<property name="decayTime">
-			<value>0</value>
+			<value>179.487152</value>
+		</property>
+		<property name="sustainValue">
+			<value>-35.5555573</value>
 		</property>
 		<property name="releaseTime">
 			<value>260</value>
@@ -518,6 +524,9 @@
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{f5e0a54e-29a4-41e2-87ad-bfc7f8761ffa}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="threshold">
 			<value>-45.5</value>
 		</property>
@@ -528,7 +537,7 @@
 			<value>6.20000029</value>
 		</property>
 		<property name="gain">
-			<value>3.5</value>
+			<value>13</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d38e5ddc-a2de-498d-badd-b8ab060ca5e8}" />

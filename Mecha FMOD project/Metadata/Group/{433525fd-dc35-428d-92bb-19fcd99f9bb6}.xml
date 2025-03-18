@@ -16,24 +16,29 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{bc02c5e5-822b-47de-8f57-2133f00bd08c}">
 		<relationship name="effects">
-			<destination>{f6e0826a-4c35-4dbb-9291-5bcb70ea37ca}</destination>
+			<destination>{c76ea9f9-85d0-4e5f-aee8-a04c6a0a0e32}</destination>
 			<destination>{d599e8db-c054-411f-bd19-4a736c69eca9}</destination>
+			<destination>{15f236bd-3467-4026-add7-a87bb10ad3cc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{56601989-ea59-41e6-a1a5-389b075e344f}" />
-	<object class="MixerSend" id="{f6e0826a-4c35-4dbb-9291-5bcb70ea37ca}">
-		<property name="bypass">
-			<value>true</value>
+	<object class="CompressorEffect" id="{c76ea9f9-85d0-4e5f-aee8-a04c6a0a0e32}">
+		<property name="threshold">
+			<value>-14</value>
 		</property>
-		<property name="level">
-			<value>-24</value>
+		<property name="ratio">
+			<value>21</value>
 		</property>
-		<property name="inputFormat">
-			<value>1</value>
+		<property name="attackTime">
+			<value>0.75</value>
 		</property>
-		<relationship name="mixerReturn">
-			<destination>{c3dd7602-d9ed-4fcf-a6c2-ef11404ac5da}</destination>
+		<property name="releaseTime">
+			<value>10</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{b85a24ff-058c-429d-bbfe-2688279cfaad}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d599e8db-c054-411f-bd19-4a736c69eca9}" />
+	<object class="LoudnessMeter" id="{15f236bd-3467-4026-add7-a87bb10ad3cc}" />
 </objects>

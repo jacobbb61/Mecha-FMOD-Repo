@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f2cc5529-d5e9-4563-ab09-e5193a9486a1}">
+		<property name="assetPath">
+			<value>Sci Fi Electricity Long D.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1978231292517008</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{443236f2-2e67-4018-b62d-7081b70f8485}</destination>
+		</relationship>
+	</object>
+</objects>

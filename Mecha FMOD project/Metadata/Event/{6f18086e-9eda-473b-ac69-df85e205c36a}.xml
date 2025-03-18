@@ -221,7 +221,6 @@
 		<property name="length">
 			<value>0.28769312733084706</value>
 		</property>
-		<property name="name" />
 		<property name="commandType">
 			<value>3</value>
 		</property>
@@ -230,9 +229,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{774a9dce-988a-4e8f-bdb7-65cca8035c2d}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -253,7 +249,6 @@
 		<property name="length">
 			<value>0.28769312733084706</value>
 		</property>
-		<property name="name" />
 		<property name="commandType">
 			<value>3</value>
 		</property>

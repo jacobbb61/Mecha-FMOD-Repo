@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{2516f461-3516-4530-8b9c-8e0912bf5509}">
-		<property name="volume">
-			<value>-6</value>
-		</property>
 		<property name="name">
 			<value>Weapon</value>
 		</property>
@@ -23,6 +20,8 @@
 			<destination>{7b17adb1-b064-4620-8fb8-ead4e6ce9102}</destination>
 			<destination>{183a9393-c5c9-460c-8949-6c092f215ee7}</destination>
 			<destination>{c6242c33-ed00-43d3-ada6-0e4dd8fde369}</destination>
+			<destination>{b85a24ff-058c-429d-bbfe-2688279cfaad}</destination>
+			<destination>{a6b14f08-eec0-4132-9545-867c818f2219}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{256f5b45-51d7-4134-b444-915a36bd1ee0}" />
@@ -79,21 +78,26 @@
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{183a9393-c5c9-460c-8949-6c092f215ee7}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="threshold">
-			<value>-12</value>
+			<value>-23.5</value>
 		</property>
 		<property name="ratio">
 			<value>3</value>
 		</property>
 		<property name="attackTime">
-			<value>0.75</value>
+			<value>0.550000012</value>
 		</property>
 		<property name="releaseTime">
 			<value>84</value>
 		</property>
 		<property name="gain">
-			<value>12</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c6242c33-ed00-43d3-ada6-0e4dd8fde369}" />
+	<object class="Sidechain" id="{b85a24ff-058c-429d-bbfe-2688279cfaad}" />
+	<object class="LoudnessMeter" id="{a6b14f08-eec0-4132-9545-867c818f2219}" />
 </objects>
