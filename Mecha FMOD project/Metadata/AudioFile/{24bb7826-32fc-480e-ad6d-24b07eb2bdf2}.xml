@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{feff2325-c2d1-45f1-b0b6-5052188fbe7c}">
+	<object class="AudioFile" id="{24bb7826-32fc-480e-ad6d-24b07eb2bdf2}">
 		<property name="assetPath">
 			<value>vo_willy_introCS_line_3c.wav</value>
 		</property>
