@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{145f33e9-12c1-4b53-9327-89103ce6ce8e}">
+		<property name="name">
+			<value>Cut Scene WIlly</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d7c00c60-ba9e-4c4a-9c44-fd8063e6fea1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7aabf502-4c75-43ec-b588-443af1e050cf}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e862df76-bc76-4465-bba4-bbd50a95588c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d7c00c60-ba9e-4c4a-9c44-fd8063e6fea1}">
+		<relationship name="effects">
+			<destination>{2f21e4d7-7211-47a4-8119-6f45731f2dfc}</destination>
+			<destination>{fbb49aee-7cd1-48ea-b3ba-c030af307e99}</destination>
+			<destination>{73388615-9bb0-403e-a122-c9ba6ae6ad61}</destination>
+			<destination>{a1715498-10b6-486f-8ee0-055657fc9314}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7aabf502-4c75-43ec-b588-443af1e050cf}" />
+	<object class="CompressorEffect" id="{2f21e4d7-7211-47a4-8119-6f45731f2dfc}">
+		<property name="threshold">
+			<value>-12</value>
+		</property>
+		<property name="ratio">
+			<value>3.10000014</value>
+		</property>
+		<property name="attackTime">
+			<value>5.80000019</value>
+		</property>
+		<property name="releaseTime">
+			<value>88</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{fbb49aee-7cd1-48ea-b3ba-c030af307e99}">
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>48</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>29</value>
+		</property>
+		<property name="wetLevel">
+			<value>-23.5</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{73388615-9bb0-403e-a122-c9ba6ae6ad61}">
+		<property name="filterTypeA">
+			<value>6</value>
+		</property>
+		<property name="filterTypeE">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>308.171722</value>
+		</property>
+		<property name="frequencyE">
+			<value>11336.5264</value>
+		</property>
+		<property name="qualityA">
+			<value>0.56048274</value>
+		</property>
+		<property name="qualityE">
+			<value>0.518620729</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{a1715498-10b6-486f-8ee0-055657fc9314}" />
+</objects>
