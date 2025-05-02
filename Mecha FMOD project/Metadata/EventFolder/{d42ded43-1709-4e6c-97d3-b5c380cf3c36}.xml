@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{d42ded43-1709-4e6c-97d3-b5c380cf3c36}">
+		<property name="name">
+			<value>Turorial</value>
+		</property>
+		<relationship name="folder">
+			<destination>{06bb4f62-e430-46f2-bbd9-80a9a10241e1}</destination>
+		</relationship>
+	</object>
+</objects>

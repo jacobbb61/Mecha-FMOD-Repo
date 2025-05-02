@@ -76,9 +76,6 @@
 		<relationship name="modules">
 			<destination>{4bbbf467-eebc-48c0-806b-8e5d524a86a7}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{988a2a92-7d2f-482c-a83b-7065aaf7a683}</destination>
-		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{440ffb1d-fe9a-4f50-8bc3-ac0f530554f8}">
 		<relationship name="preset">
@@ -133,20 +130,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{e496c4de-3e2c-41c9-818e-056c06ce093a}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{988a2a92-7d2f-482c-a83b-7065aaf7a683}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>2.6966213151927438</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{2db089ea-4efb-43e5-8c16-13a031d7d146}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{f1686e3b-994f-44b8-8c7f-3ff5ffe7837f}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{149505b8-dfb7-4bdb-9981-b806233c6dc5}">
