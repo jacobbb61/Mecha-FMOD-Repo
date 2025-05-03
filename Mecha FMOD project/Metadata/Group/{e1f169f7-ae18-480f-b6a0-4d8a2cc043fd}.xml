@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="MixerGroup" id="{145f33e9-12c1-4b53-9327-89103ce6ce8e}">
+	<object class="MixerGroup" id="{e1f169f7-ae18-480f-b6a0-4d8a2cc043fd}">
 		<property name="name">
-			<value>Cut Scene WIlly</value>
+			<value>Willy Coms</value>
 		</property>
 		<relationship name="effectChain">
-			<destination>{d7c00c60-ba9e-4c4a-9c44-fd8063e6fea1}</destination>
+			<destination>{62ac2638-3a04-4e3f-99b2-3bcc2124c806}</destination>
 		</relationship>
 		<relationship name="panner">
-			<destination>{7aabf502-4c75-43ec-b588-443af1e050cf}</destination>
+			<destination>{bc6420a4-388d-4170-8fff-66ef3f3a5f47}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{e862df76-bc76-4465-bba4-bbd50a95588c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusEffectChain" id="{d7c00c60-ba9e-4c4a-9c44-fd8063e6fea1}">
+	<object class="MixerBusEffectChain" id="{62ac2638-3a04-4e3f-99b2-3bcc2124c806}">
 		<relationship name="effects">
-			<destination>{fbb49aee-7cd1-48ea-b3ba-c030af307e99}</destination>
-			<destination>{2f21e4d7-7211-47a4-8119-6f45731f2dfc}</destination>
-			<destination>{73388615-9bb0-403e-a122-c9ba6ae6ad61}</destination>
-			<destination>{a1715498-10b6-486f-8ee0-055657fc9314}</destination>
+			<destination>{db5fbc7a-c56d-4832-ab02-9433fc9df31c}</destination>
+			<destination>{bfd42924-03ca-41e7-9aae-50f48f928e04}</destination>
+			<destination>{f33c9fd4-c787-4302-8429-85bb119bc3d0}</destination>
+			<destination>{1087dee0-c33c-49c6-9aa5-82820d963abc}</destination>
+			<destination>{6a51efd5-6f3b-4e3c-aaaf-a3b5d3187f60}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{7aabf502-4c75-43ec-b588-443af1e050cf}" />
-	<object class="SFXReverbEffect" id="{fbb49aee-7cd1-48ea-b3ba-c030af307e99}">
+	<object class="MixerBusPanner" id="{bc6420a4-388d-4170-8fff-66ef3f3a5f47}" />
+	<object class="SFXReverbEffect" id="{db5fbc7a-c56d-4832-ab02-9433fc9df31c}">
 		<property name="earlyDelay">
 			<value>0</value>
 		</property>
@@ -34,10 +35,10 @@
 			<value>29</value>
 		</property>
 		<property name="wetLevel">
-			<value>-24</value>
+			<value>-30</value>
 		</property>
 	</object>
-	<object class="CompressorEffect" id="{2f21e4d7-7211-47a4-8119-6f45731f2dfc}">
+	<object class="CompressorEffect" id="{bfd42924-03ca-41e7-9aae-50f48f928e04}">
 		<property name="threshold">
 			<value>-12</value>
 		</property>
@@ -50,8 +51,11 @@
 		<property name="releaseTime">
 			<value>88</value>
 		</property>
+		<property name="gain">
+			<value>6</value>
+		</property>
 	</object>
-	<object class="MultibandEqEffect" id="{73388615-9bb0-403e-a122-c9ba6ae6ad61}">
+	<object class="MultibandEqEffect" id="{f33c9fd4-c787-4302-8429-85bb119bc3d0}">
 		<property name="filterTypeA">
 			<value>6</value>
 		</property>
@@ -71,5 +75,6 @@
 			<value>0.518620729</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{a1715498-10b6-486f-8ee0-055657fc9314}" />
+	<object class="MixerBusFader" id="{1087dee0-c33c-49c6-9aa5-82820d963abc}" />
+	<object class="LoudnessMeter" id="{6a51efd5-6f3b-4e3c-aaaf-a3b5d3187f60}" />
 </objects>
