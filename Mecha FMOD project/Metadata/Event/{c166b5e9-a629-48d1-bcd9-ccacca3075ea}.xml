@@ -110,5 +110,18 @@
 	</object>
 	<object class="MixerBusFader" id="{7886e505-fc89-4529-a9b1-dbd4cee3f57b}" />
 	<object class="MixerBusFader" id="{d39a45fc-9dfb-41fa-9810-6379b1e913e0}" />
-	<object class="SpatialiserEffect" id="{c90c6e56-0191-4c40-8d0d-23e6fa5e0795}" />
+	<object class="SpatialiserEffect" id="{c90c6e56-0191-4c40-8d0d-23e6fa5e0795}">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>5.5</value>
+		</property>
+		<property name="minimumExtent">
+			<value>270</value>
+		</property>
+	</object>
 </objects>
