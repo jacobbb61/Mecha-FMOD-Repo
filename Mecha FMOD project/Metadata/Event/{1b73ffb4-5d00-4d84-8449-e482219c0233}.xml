@@ -237,6 +237,7 @@
 		<relationship name="effects">
 			<destination>{0d686a5f-b3d0-41a4-ab88-976b61e8c5e6}</destination>
 			<destination>{a3f22925-a022-4fef-9bc0-1fe94516795e}</destination>
+			<destination>{7a62135b-03c8-42d2-b8d0-859cb7b332c3}</destination>
 			<destination>{30b38434-dac5-494c-9b43-0ddf63379b0a}</destination>
 		</relationship>
 	</object>
@@ -296,6 +297,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a3f22925-a022-4fef-9bc0-1fe94516795e}" />
+	<object class="LoudnessMeter" id="{7a62135b-03c8-42d2-b8d0-859cb7b332c3}" />
 	<object class="SpatialiserEffect" id="{30b38434-dac5-494c-9b43-0ddf63379b0a}">
 		<property name="maximumDistance">
 			<value>80</value>
