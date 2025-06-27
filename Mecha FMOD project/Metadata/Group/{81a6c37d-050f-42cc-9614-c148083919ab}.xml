@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>SOUND EFFECTS BUS</value>
 		</property>
+		<relationship name="masters">
+			<destination>{69bb0fe0-e0fd-4983-bd62-7b4542841a15}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{52182fa9-d4f6-47a4-b64f-f65b612964d1}</destination>
 		</relationship>
